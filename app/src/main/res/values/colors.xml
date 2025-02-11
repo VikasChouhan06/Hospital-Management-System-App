@@ -12,7 +12,7 @@
     <color name="teal">#00897B</color>
     <color name="light_gray">#F5F5F5</color>
     <color name="light_background">#F5F5F5</color>
-
+    <color name="button_bg">#1976D2</color> <!-- Blue Shade -->
     <color name="primary_blue">#1976D2</color>
 
 

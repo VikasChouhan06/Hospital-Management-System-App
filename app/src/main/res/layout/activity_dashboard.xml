@@ -5,14 +5,14 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center"
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/wellcome_user">
 
     <!-- Welcome Text -->
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome, User"
+
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/black"
