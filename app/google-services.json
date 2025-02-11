@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755218145234",
+    "project_id": "orhospital-c6bb9",
+    "storage_bucket": "orhospital-c6bb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755218145234:android:d98be26c4304ec27dd720b",
+        "android_client_info": {
+          "package_name": "com.example.orhospital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwIYAtgF-D6IXbi5Ms7dKDtiX5OMnTM_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

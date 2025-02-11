@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ORHospital</string>
+    <string-array name="doctor_names">
+        <item>Dr. Smith</item>
+        <item>Dr. Johnson</item>
+        <item>Dr. Patel</item>
+        <item>Dr. Gupta</item>
+    </string-array>
+
+</resources>

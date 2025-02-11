@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Email Input Field -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Query Input Field -->
+    <EditText
+        android:id="@+id/editTextQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Query"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmitQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Query"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- Full Name (Only Visible in Registration Mode) -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Loading Indicator (Hidden by Default) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="10dp" />
+
+    <!-- Authentication Button -->
+    <Button
+        android:id="@+id/buttonAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp" />
+
+    <!-- Toggle Between Login & Registration -->
+    <TextView
+        android:id="@+id/toggleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp" />
+</LinearLayout>

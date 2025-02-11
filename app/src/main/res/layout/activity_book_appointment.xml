@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#E3F2FD"> <!-- Light Blue Background -->
+
+    <!-- Patient Name Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Patient Name Input -->
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Patient Name"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Doctor Selection Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Doctor"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Doctor Selection Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@android:drawable/spinner_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Date Selection Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Appointment Date"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Select Date Button -->
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Selected Date Text -->
+    <TextView
+        android:id="@+id/textViewSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Date Selected"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:padding="6dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Time Selection Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Appointment Time"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Select Time Button -->
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Selected Time Text -->
+    <TextView
+        android:id="@+id/textViewSelectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Time Selected"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:padding="6dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Symptoms Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symptoms / Reason for Visit"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Symptoms Input -->
+    <EditText
+        android:id="@+id/editTextSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Symptoms / Reason for Visit"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Book Appointment Button -->
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

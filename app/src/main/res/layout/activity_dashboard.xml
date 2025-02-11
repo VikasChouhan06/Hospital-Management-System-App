@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="34dp"/>
+
+    <!-- Book Appointment Button -->
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- View Appointments Button -->
+    <Button
+        android:id="@+id/buttonViewAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Appointments"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Submit Query Button -->
+    <Button
+        android:id="@+id/buttonQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Query"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Logout Button (Red) -->
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@drawable/rounded_button_red"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:elevation="4dp"/>
+</LinearLayout>

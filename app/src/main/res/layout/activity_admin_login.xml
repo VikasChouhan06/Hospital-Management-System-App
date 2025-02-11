@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/light_blue">
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/input_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="2dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/input_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="2dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:elevation="4dp"/>
+</LinearLayout>

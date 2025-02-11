@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/light_gray"
+    android:gravity="center">
+
+    <!-- Form Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@android:color/white"
+        android:elevation="6dp"
+        android:radius="12dp">
+
+        <!-- Doctor Name -->
+        <EditText
+            android:id="@+id/etDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doctor Name"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"/>
+
+        <!-- Specialization -->
+        <EditText
+            android:id="@+id/etSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specialization"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"/>
+
+        <!-- College -->
+        <EditText
+            android:id="@+id/etCollege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="College"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"/>
+
+        <!-- Experience -->
+        <EditText
+            android:id="@+id/etExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience (Years)"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:inputType="number"/>
+
+        <!-- Username -->
+        <EditText
+            android:id="@+id/etDoctorUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etDoctorPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:inputType="textPassword"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:backgroundTint="@color/primary_blue"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
